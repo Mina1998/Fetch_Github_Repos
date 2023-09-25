@@ -7,3 +7,72 @@
 body {
     font-family: Tahoma;
 }
+
+.container {
+    width: 800px;
+    margin: 20px auto;
+    background-color: #f6f6f6;
+}
+
+.container .get-repos {
+    padding: 15px;
+    background-color: #eee;
+    display: flex;
+}
+
+.container .get-repos input {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    font-size: 20px;
+    height: 55px;
+}
+
+.container .get-repos input:focus {
+    outline: 2px solid #F44336;
+}
+
+.container .get-repos .get-repos-button {
+    width: 150px;
+    margin-left: 5px;
+    height: 55px;
+    background-color: #F44336;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .show-data {
+    padding: 20px;
+    background-color: #E0E0E0;
+}
+
+.show-data .repo-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 18px;
+    background-color: #FFF;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.show-data .repo-box:not(:last-child) {
+    border-bottom: 1px solid white;
+}
+
+.show-data .repo-box a {
+    text-decoration: none;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
